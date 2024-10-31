@@ -3,45 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beck's Bakes - Gallery</title>
-    <style>
-        body {
-            background-color: #fce4ec;
-            color: #c2185b;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2.5em;
-            margin: 20px 0;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .gallery img {
-            width: 300px;
-            height: auto;
-            margin: 10px;
-            border-radius: 10px;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.8em;
-        }
-    </style>
+    <title>Gallery - Beck's Bakes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Gallery</h1>
-    <div class="gallery">
-        <img src="https://www.bowlofdelicious.com/wp-content/uploads/2020/04/dutch-oven-no-knead-bread-featured-square.jpg" alt="No-Knead Bread">
-        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhMWFRUXFxgbFxgYGRcYFxgWFxgXGBgWFhgaHSggHh0lHRs... (truncated for brevity)" alt="Baking Image">
-        <img src="https://www.example.com/path/to/your/image3.jpg" alt="Another Baking Image"> <!-- Replace with your image URL -->
-        <img src="https://www.example.com/path/to/your/image4.jpg" alt="Yet Another Baking Image"> <!-- Replace with your image URL -->
-    </div>
+    <header>
+        <h1>Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Breads</h2>
+            <div class="gallery">
+                <img src="bread1.jpg" alt="Artisan Bread 1">
+                <img src="bread2.jpg" alt="Artisan Bread 2">
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>Explore our favorite creations and get inspired!</p>
+        <p>&copy; 2024 Beck's Bakes. All rights reserved.</p>
     </footer>
 </body>
 </html>
