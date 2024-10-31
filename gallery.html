@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Beck's Bakes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Beck's Bakes - Gallery</title>
+    <style>
+        body {
+            background-color: #fce4ec;
+            color: #c2185b;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.8em;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Gallery</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>My Baked Goods</h2>
-            <img src="https://images.unsplash.com/photo-1595364840472-484b7b5a6ee7?crop=entropy&"
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <img src="https://www.bowlofdelicious.com/wp-content/uploads/2020/04/dutch-oven-no-knead-bread-featured-square.jpg" alt="No-Knead Bread">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSEhMWFRUXFxgbFxgYGRcYFxgWFxgXGBgWFhgaHSggHh0lHRs... (truncated for brevity)" alt="Baking Image">
+        <img src="https://www.example.com/path/to/your/image3.jpg" alt="Another Baking Image"> <!-- Replace with your image URL -->
+        <img src="https://www.example.com/path/to/your/image4.jpg" alt="Yet Another Baking Image"> <!-- Replace with your image URL -->
+    </div>
+    <footer>
+        <p>Explore our favorite creations and get inspired!</p>
+    </footer>
+</body>
+</html>
