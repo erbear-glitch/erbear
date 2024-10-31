@@ -35,6 +35,12 @@
             padding: 20px;
             text-align: center;
         }
+        .gallery img {
+            width: 400px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px; /* Space between images */
+            border-radius: 8px; /* Rounded corners */
+        }
         footer {
             background-color: #ff99cc;
             text-align: center;
@@ -73,8 +79,10 @@
         <section>
             <h2>Gallery</h2>
             <p>Check out some of my favorite baked goods!</p>
-            <img src="https://via.placeholder.com/400x300" alt="Baked Good 1">
-            <img src="https://via.placeholder.com/400x300" alt="Baked Good 2">
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1595364840472-484b7b5a6ee7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDB8fGNhY2VfY29va2llJTIwYmF0dGVyfGVufDB8fHx8MTYzOTk2MjQ5OA&ixlib=rb-1.2.1&q=80&w=400" alt="Baked Good 1">
+                <img src="https://images.unsplash.com/photo-1605731265161-2e0436cf4e0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE3fHxiYWtlZCUyMGNha2V8ZW58MHx8fHwxNjM5OTYyNDQw&ixlib=rb-1.2.1&q=80&w=400" alt="Baked Good 2">
+            </div>
         </section>
     </main>
 
@@ -83,3 +91,4 @@
     </footer>
 </body>
 </html>
+
